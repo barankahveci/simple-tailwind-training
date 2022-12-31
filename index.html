@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="bg-arkaplan">
+    <article class="flex flex-col justify-center h-[100vh] mx-[25%]">
+        <div class="flex items-center justify-between w-full">
+            <h1 class="text-4xl font-bold">Choose your plan</h1>
+            <div class="bg-gray-300 p-3 px-3 rounded-full flex gap-x-4">
+                <div>
+                    <input class="hidden peer" type="radio" name="monthyearly" id="month">
+                    <label class="text1 p-2  transition-all cursor-pointer peer-checked:transition-all duration-300 peer-checked:bg-white peer-checked:rounded-full" for="month">Monthly</label>
+                </div>
+                <div>
+                    <input class="hidden peer" type="radio" name="monthyearly" id="yearly">
+                    <label class="text2 p-2 px-4 cursor-pointer peer-checked:transition-all duration-300 peer-checked:bg-white peer-checked:rounded-full" for="yearly">Yearly</label>
+                </div>
+
+            </div>
+        </div>
+        <main class="mt-12 flex gap-x-64">
+            <section class="w-[22rem] h-96 bg-white rounded p-10">
+                <h6 class="font-bold text-2xl mb-7">Starter</h6>
+                <span class="font-bold ">$8.99 / month</span>
+                <p class="text-gray-800 mb-5">Billed yearly</p>
+                <p class="text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellendus quibusdam, alias molestias molestiae ab facere quod ex optio illum?</p>
+                <button class="w-full p-3 rounded mt-4 bg-black text-white">Get Started</button>
+            </section>
+            <section class="w-[22rem] h-96 bg-white rounded p-10">
+                <h6 class="font-bold text-2xl mb-7">Professional</h6>
+                <span class="font-bold ">$21.99 / month</span>
+                <p class="text-gray-800 mb-5">Billed yearly</p>
+                <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, dolores!</p>
+                <button class="w-full p-3 rounded mt-16 bg-white border-2 border-black text-black">Get Started</button>
+            </section>
+
+        </main>
+    </article>
+</body>
+
+</html>
